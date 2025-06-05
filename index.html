@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Mahesh Kumar</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Mahesh Kumar</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="https://i.ibb.co/VjC4jQP/1701604583613-2-removebg-preview.png" alt="Mahesh Kumar Profile Picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Mahesh Kumar</h1>
+      <p class="section__text__p2">Full Stack Web Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2"
+          onclick="window.open('https://drive.google.com/file/d/1d3ZuQ3lAPFFzXm11WtQ7rZZhtf-rsZ4z/view?usp=sharing', '_blank')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="https://cdn-icons-png.flaticon.com/128/1384/1384014.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/mahesh-kumar-630a29263/'" />
+        <img src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/ml4909854'" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="https://cdn-icons-png.flaticon.com/128/8743/8743903.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>Fresher <br />Full Stack Web Developer</p>
+          </div>
+          <div class="details-container">
+            <img src="https://cdn-icons-png.flaticon.com/128/10649/10649011.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>B.Tech. Bachelors Degree <br> Electronics and Communication</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Welcome to my portfolio! I am Mahesh Kumar, a passionate and driven Full Stack Web Developer, dedicated to
+            creating innovative solutions and delivering high-quality results. With a solid background in Full Stack Web
+            Developer, Currently I am fresher In this field.
+
+            My journey began with a deep fascination for Full stack web Developer. Over the years, I have honed my
+            skills in , consistently pushing the boundaries of
+            what is possible.
+
+            One of my core strengths is my ability to [mention a unique skill or approach, e.g., translate complex
+            requirements into intuitive designs, analyze data to uncover actionable insights]. I thrive in collaborative
+            environments, and my experience working with diverse teams has enhanced my adaptability and communication
+            skills.
+            Beyond my professional endeavors, I am an avid Music, which continuously fuels my creativity and passion for
+            innovation.
+            I invite you to explore my portfolio to see examples of my work and learn more about my approach. Thank you
+            for visiting, and I look forward to the possibility of collaborating with you.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="https://img.icons8.com/?size=24&id=dhLPGC6w8pNp&format=png" alt="Arrow icon" class="icon arrow"
+      onclick="location.href='./#experience'" />
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-main-container">]
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Full Stack Web Developer</h2>
+            <div class="article-container">
+              <article class="article-con">
+                <img src="https://cdn-icons-png.flaticon.com/128/1051/1051328.png" alt="Html icon" class="icon" />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article class="article-con">
+                <img src="https://cdn-icons-png.flaticon.com/128/732/732007.png" alt="Css icon" class="icon" />
+                <div>
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article class="article-con">
+                <img src="https://cdn-icons-png.flaticon.com/128/721/721671.png" alt="Javascript icon" class="icon" />
+                <div>
+                  <h3>JavaScript</h3>
+                </div>
+              </article>
+              <article class="article-con">
+                <img src="https://cdn-icons-png.flaticon.com/128/3393/3393920.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>React </h3>
+                </div>
+              </article>
+              <article class="article-con">
+                <img src="https://cdn-icons-png.flaticon.com/128/15380/15380914.png" alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>Node JS</h3>
+                </div>
+              </article>
+              <article class="article-con">
+                <img src="https://img.icons8.com/?size=24&id=PZQVBAxaueDJ&format=png" alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>Express JS</h3>
+                </div>
+              </article>
+              <article class="article-con">
+                <img src="https://cdn-icons-png.flaticon.com/128/3393/3393920.png" alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>Redux</h3>
+                </div>
+              </article>
+              <article class="article-con">
+                <img src="https://cdn-icons-png.flaticon.com/128/2232/2232200.png" alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>MongoDB</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="https://img.icons8.com/?size=24&id=dhLPGC6w8pNp&format=png" alt="Arrow icon" class="icon arrow"
+      onclick="location.href='./#projects'" />
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+
+    <h1 class="title">Projects</h1>
+    <div class="experience-main-container">
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="https://i.ibb.co/svxFVq8g/Screenshot-2025-06-05-124511.png" alt="Asos.com"
+                class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Full Stack Blog App</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/ml4909854/BlogBackend' , `_blank`)">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn"
+                onclick="window.open('https://full-stack-blog-frontend-six.vercel.app/' ,`_blank`)">
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="https://i.ibb.co/sgjQpxC/Screenshot-2025-01-13-220503.png" alt="Gemini Clone"
+                class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Gemini Clone</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/ml4909854/Gemini-Clone' ,`_blank`)">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn"
+                onclick="window.open('https://regal-faloodeh-53535c.netlify.app/' , `_blank`)">
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="https://i.ibb.co/V03PD90p/Screenshot-2025-06-05-132326.png" alt="Asos.com"
+                class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Zomato Landing Page</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/ml4909854/zomato_landing_page' ,`_blank`)">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn"
+                onclick="window.open('https://zomato-landing-page-ampl.vercel.app/' , `_blank`)">
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="https://img.icons8.com/?size=24&id=dhLPGC6w8pNp&format=png" alt="Arrow icon" class="icon arrow"
+      onclick="location.href='./#contact'" />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="https://cdn-icons-png.flaticon.com/128/6244/6244438.png" alt="Email icon"
+          class="icon contact-icon email-icon" onclick="window.open(`mailto:ml4909854@gmail.com` , `_blank`)" />
+        <p><a href="mailto:ml4909854@gmail.com">ml4909854@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="https://cdn-icons-png.flaticon.com/128/1384/1384014.png" alt="LinkedIn icon" class="icon contact-icon"
+          onclick="window.open('https://www.linkedin.com/in/mahesh-kumar-630a29263/' , `_blank`)" />
+        <p><a href="https://www.linkedin.com/in/mahesh-kumar-630a29263/">LinkedIn</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="https://cdn-icons-png.flaticon.com/128/1384/1384014.png" alt="LinkedIn icon" class="icon contact-icon"
+          onclick="window.open('https://github.com/ml4909854' , `_blank`)" />
+        <p><a href="https://github.com/ml4909854'">Github</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
